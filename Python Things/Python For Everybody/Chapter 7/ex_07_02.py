@@ -12,6 +12,7 @@ for line in fhand:
     count = count + 1
     cpos = line.find(':')
     ntex = line[cpos+1:]
+    print(ntex)
     num = float(ntex)
     csum = csum + num
 
